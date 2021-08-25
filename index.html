@@ -121,7 +121,8 @@
 
             </div>
         </section>
-        <section class="sessao-projetos" id="sessao-projetos">
+
+        <section class="sessao-projetos" id="projetos">
 
             <div class="sessao-header">
                 <h1>Projetos</h1>
@@ -199,42 +200,47 @@
                 <form>
                     <label for="qtde">Qtde de Páginas</label>
                     <input type="number" min="1" name="qtde" id="qtde">
-                    <label for="js">Preciso de um script JS</label>
-                    <input class="clicavel" type="checkbox" name="js" id="js">
+                    <label class="pointer" for="js">Preciso de um script JS</label>
+                    <input class="clicavel pointer" type="checkbox" name="js" id="js">
                     <label>Layout</label>
                     <div class="group-layout">
                         <div class="clicavel">
-                            <input type="radio" name="layout" id="layout-sim">
-                            <label for="layout-sim">Preciso de um layout</label>
+                            <input class="pointer" type="radio" name="layout" id="layout-sim" checked>
+                            <label class="pointer" for="layout-sim">Preciso de um layout</label>
                         </div>
                         <div class="clicavel">
-                            <input type="radio" name="layout" id="layout-nao">
-                            <label for="layout-nao">Já tenho um layout</label>
+                            <input class="pointer" type="radio" name="layout" id="layout-nao">
+                            <label class="pointer" for="layout-nao">Já tenho um layout</label>
                         </div>
                     </div>
-                    <label for="prazo">Prazo</label>
-                    <input type="range" name="prazo" id="prazo" min="1" max="10">
+                    <label class="pointer" for="prazo">Prazo</label>
+                    <input class="pointer" type="range" name="prazo" id="prazo" min="1" max="10">
                     <label id="preco">R$ 0,00</label>
                     <button class="btn btn-orcamento" type="submit">Enviar</button>
                 </form>
             </div>
         </section>
 
-        <!-- <div class="teste">
 
-            <div class="input-contain">
-                <input class="input-test" type="text" id="fname" name="fname" autocomplete="off" value="" aria-labelledby="placeholder-fname">
-                <label class="placeholder-text" for="fname" id="placeholder-fname">
-                   <div class="text">First Name</div>
-                </label>
+        <footer>
+            <div class="footer-content">
+                <p>
+                    Copyright &copy;HAILOTN NASCIMENTO - 2021 - Todos os diretos reservados
+                </p>
+                <div class="social-media">
+                    <a href="https://www.fb.me/hailton.nascimento.3/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://github.com/Hailton-Nascimento" target="_blank"><i class="fab fa-github-alt"></i></a>
+                    <a href="https://www.instagram.com/hailton_nascimento/" target="_blank"><i
+                            class="fab fa-instagram"></i></a>
+                </div>
             </div>
-
-        </div> -->
-
-
-        <footer .class="footer">
-            <a href="#header" class="link-topo"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
         </footer>
+
+
+        <a href="#header" class="link-topo">
+            <i class="fa fa-arrow-up" aria-hidden="true"></i>
+        </a>
+
         </div>
 
 </body>
