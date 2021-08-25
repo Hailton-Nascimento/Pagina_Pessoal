@@ -6,6 +6,21 @@ document
 
     });
 
+let input_element = document.querySelectorAll("input");
+console.log(input_element);
+
+input_element.forEach((input) => {
+    input.addEventListener("keyup", (e) => {
+        input.setAttribute("value", input.value);
+    })
+})
+let textarea_element = document.querySelector("textarea");
+
+textarea_element.addEventListener("keyup", (e) => {
+    textarea_element.setAttribute("value", textarea_element.value);
+})
+
+
 
 // document.querySelector("#qtde").addEventListener("change", atualizarPreco);
 // document.querySelector("#js").addEventListener("change", atualizarPreco);
